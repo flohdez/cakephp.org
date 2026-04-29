@@ -3,8 +3,8 @@
      * @var \App\View\AppView $this
      */
 
-    $title = __('CakePHP - Build fast, grow solid | CakePHP latest news');
-    $description = __('Latest CakePHP News.');
+    $title = __('CakePHP - Build fast, grow solid | CakePHP Newsletter');
+    $description = __('CakePHP newsletter subscription registration confirmation page');
     $this->assign('title', $title);
     $this->assign('meta', $this->Html->meta('description', $description));
     $this->assign('socialMeta', $this->Meta->socialTags(['title' => $title, 'description' => $description]));
