@@ -122,7 +122,7 @@
                             </div>
                             <div class="hidden">
                                 <input type="text" name="email_address_check" value="" class="input--hidden">
-                                <input type="hidden" name="locale" value="es">
+                                <input type="hidden" name="locale" value="en">
                             </div>
                         </div>
                     </form>
@@ -169,8 +169,8 @@
 <?php $this->end('css') ?>
 <?php $this->start('script') ?>
     <script>
-        window.REQUIRED_CODE_ERROR_MESSAGE = 'Elija un código de país';
-        window.LOCALE = 'es';
+        window.REQUIRED_CODE_ERROR_MESSAGE = 'Choose country code';
+        window.LOCALE = 'en';
         window.EMAIL_INVALID_MESSAGE = window.SMS_INVALID_MESSAGE = "The information you provided is not valid. Please check the field format and try again.";
 
         window.REQUIRED_ERROR_MESSAGE = "This field cannot be left empty. ";
@@ -182,10 +182,10 @@
 
         window.translation = {
             common: {
-                selectedList: '{quantity} lista seleccionada',
-                selectedLists: '{quantity} listas seleccionadas',
-                selectedOption: '{quantity} seleccionado',
-                selectedOptions: '{quantity} seleccionados',
+                selectedList: '{quantity} selected list',
+                selectedLists: '{quantity} selected lists',
+                selectedOption: '{quantity} selected',
+                selectedOptions: '{quantity} selected',
             }
         };
 
